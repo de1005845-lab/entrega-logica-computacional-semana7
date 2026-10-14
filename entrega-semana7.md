@@ -1,11 +1,11 @@
 # Herramientas de Logica Computacional - Entrega Semana 7
 
-### 3. Traduccion a lenguaje formal
+### Traduccion a lenguaje formal
 Inv(A,B) := A*B = I y B*A = I
 
 Teorema: Para todo A, para todo B, para todo C: [(Inv(A,B) y Inv(A,C)) implica (B = C)]
 
-### 4. Estrategia de Demostracion
+### Estrategia de Demostracion
 Demostracion Directa + Instanciacion Universal
 
 1. Tomemos B y C inversas de A. Hipotesis: A*B = I y A*C = I
@@ -15,11 +15,11 @@ Demostracion Directa + Instanciacion Universal
 5. Como B*A = I -> B = I*C = C
 6. Por tanto B = C.
 
-### 5. Ejemplo cotidiano
+### Ejemplo cotidiano
 "No es posible que haya dos claves maestras diferentes"
 Formal: Para todo A, B, C ((P(A,B) y P(A,C)) implica B=C)
 
-### 6. Referencias POLI
+### Referencias POLI
 1. Villamil, M., & Torres, L. (2019). Fundamentos de logica.
 2. Castro, R. (2021). Estructuras discretas.
 3. Grossman, S. I. (2019). Algebra lineal.
