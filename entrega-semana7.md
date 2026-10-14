@@ -1,5 +1,6 @@
 # Herramientas de Logica Computacional - Entrega Semana 7
 
+**Estudiante:** Daniel Eduardo Perez Roberto
 ### Traduccion a lenguaje formal
 Inv(A,B) := A*B = I y B*A = I
 
